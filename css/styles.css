@@ -1,6 +1,23 @@
-/* Container Styles */
-body {
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: firebrick;
+}
+.flex {
     display: flex;
+    justify-content: space-between;
+}
+.border {
+    border: 2px solid black;
+}
+
+/* Container Styles */
+body.flex {
     justify-content: center;
 }
 body>#container {
@@ -10,56 +27,83 @@ body>#container {
 /* Header Styles */
 header {
     background-color: chartreuse;
-    display: flex;
-    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    margin: 10px;
+}
+header nav {
+    margin: 10px;
 }
 header nav ul {
-    display: flex;
-    justify-content: space-between;
     width: 250px;
+}
+header input {
+    margin-top: 15px;
+    width: 100%;
 }
 
 /* Main Styles */
 main {
     background-color: tomato;
 }
-/* Page Nav */
-main>nav ul {
-    background-color: yellow;
-    display: flex;
-    justify-content: space-between;
-    padding: /* Top and Bottom */ 20px /* Left and Right */ 250px;
+main img {
+    width: 100%;
 }
-/* Below 'Green Line' Row */
-main>div {
-    display: flex;
-    justify-content: space-between;
+/* Page Nav */
+main>nav {
+    background-color: yellow;
+    padding: /* Top and Bottom */ 20px /* Left and Right */ 250px;
+    margin: 10px;
 }
 
 /* Left of Purple Line */
 #nav-section
 {
     width: 20%;
+    margin: 0 10px 10px 10px;
 }
+#nav-section li {
+    margin: 10px;
+} 
 
 /* Right of Puple Line */
 main>div>div {
     width: 80%;
-    display: flex;
-    justify-content: space-between;
+    margin: 0 10px 10px 0;
 }
 
 /* Left of 'Blue Line' Column */
 main>div>div>article {
     width: 60%;
+    margin-right: 10px;
+}
+article>div {
+    margin-top: 10px;
 }
 
 /* Right of 'Blue Line' Column */
 main>div>div>div {
     width: 40%;
 }
-/*
-main>nav ul li {
-    padding: 0 200px;
+#nav-feature {
+    height: 292.28px;
 }
-*/
+#nav-feature li {
+    margin: 10px;
+} 
+
+#nav-external {
+    margin-top: 10px;
+    height: 228px;
+}
+#nav-external h2 {
+    margin: 10px 0 0 10px;
+}
+#nav-external ul {
+    width: 50%;
+    text-align: center;
+}
+#nav-external ul li {
+    margin: 10px 0;
+}
