@@ -3,6 +3,7 @@
 }
 a {
     text-decoration: none;
+    color: black;
 }
 a:hover {
     text-decoration: underline;
@@ -26,7 +27,6 @@ body>#container {
 
 /* Header Styles */
 header {
-    background-color: chartreuse;
     border-bottom: 2px solid black;
 }
 header h1 {
@@ -45,14 +45,12 @@ header input {
 
 /* Main Styles */
 main {
-    background-color: tomato;
 }
 main img {
     width: 100%;
 }
 /* Page Nav */
 main>nav {
-    background-color: yellow;
     padding: /* Top and Bottom */ 20px /* Left and Right */ 250px;
     margin: 10px;
 }
@@ -64,7 +62,7 @@ main>nav {
     margin: 0 10px 10px 10px;
 }
 #nav-section li {
-    margin: 10px;
+    margin: 15px;
 } 
 
 /* Right of Puple Line */
@@ -90,7 +88,7 @@ main>div>div>div {
     height: 292.28px;
 }
 #nav-feature li {
-    margin: 10px;
+    margin: 15px;
 } 
 
 #nav-external {
@@ -105,5 +103,5 @@ main>div>div>div {
     text-align: center;
 }
 #nav-external ul li {
-    margin: 10px 0;
+    margin: 20px 0;
 }
