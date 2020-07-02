@@ -30,7 +30,34 @@ main>nav ul {
     justify-content: space-between;
     padding: /* Top and Bottom */ 20px /* Left and Right */ 250px;
 }
+/* Below 'Green Line' Row */
+main>div {
+    display: flex;
+    justify-content: space-between;
+}
 
+/* Left of Purple Line */
+#nav-section
+{
+    width: 20%;
+}
+
+/* Right of Puple Line */
+main>div>div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left of 'Blue Line' Column */
+main>div>div>article {
+    width: 60%;
+}
+
+/* Right of 'Blue Line' Column */
+main>div>div>div {
+    width: 40%;
+}
 /*
 main>nav ul li {
     padding: 0 200px;
